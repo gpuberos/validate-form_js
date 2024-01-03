@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="main-foreach.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire de contact</title>
+</head>
+
+<body>
+    <form method="GET" id="contact-form">
+        <fieldset>
+            <legend>Formulaire de contact</legend>
+            <label for="fname">Prénom :</label>
+            <input type="text" name="fname" id="fname">
+
+            <label for="lname">Nom :</label>
+            <input type="text" name="lname" id="lname">
+
+            <label for="tel">Téléphone :</label>
+            <input type="tel" name="tel" id="tel">
+
+            <label for="address">Adresse :</label>
+            <input type="text" name="address" id="address">
+
+            <label for="subject">Sujet :</label>
+            <input type="text" name="subject" id="subject">
+
+            <label for="msg">Message :</label>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            
+            <input type="submit" value="Envoyer">
+        </fieldset>
+    </form>
+</body>
+
+</html>
